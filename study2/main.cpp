@@ -145,7 +145,11 @@ void Render()
         {
             star[i]->Render();
             cout << endl;
-        } 
+        }
+        else
+        {
+            cout << endl;
+        }
     }
 }
 
